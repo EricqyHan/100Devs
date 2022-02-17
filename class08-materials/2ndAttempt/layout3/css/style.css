@@ -1,0 +1,72 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 55px;
+  background: black;
+  color: white;
+}
+
+nav * {
+  float: left;
+  width: 10%;
+  color: white;
+  display: block;
+}
+
+nav ul {
+  width: 50%;
+}
+
+nav form input {
+  width: 100%;
+}
+
+main + section > section {
+  width: 33.333%;
+  float: left;
+  border: blue 1px solid;
+}
+
+/* History Peace Deal */
+main > section {
+  width: 50%;
+  height: 500px;
+  float: left;
+  border: red 1px solid;
+}
+
+/* American's go home */
+main section + section section {
+  width: 50%;
+  height: 250px;
+  float: left;
+  border: 2px solid pink;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

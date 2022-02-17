@@ -1,0 +1,16 @@
+section {
+  border: 1px gold solid;
+}
+
+.box {
+  border: 1px gold solid;
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+
+.after-box {
+  clear: left;
+  border: 1px gold solid;
+}

@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+}
+
+nav {
+  border: 2px solid pink;
+  position: absolute;
+  width: 200px;
+  left: 0;
+}
+
+section {
+  border: 2px solid gold;
+  margin-left: 200px;
+}
+
+footer {
+  position: fixed;
+  border: 2px solid green;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: aqua;
+  width: 100%;
+}
+
+body {
+  margin-bottom: 120px;
+}

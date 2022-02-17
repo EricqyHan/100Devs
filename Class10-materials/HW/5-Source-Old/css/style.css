@@ -1,0 +1,99 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color: rgb(243, 248, 252);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+}
+nav * {
+  float: left;
+}
+
+#logo {
+  text-decoration: none;
+  color: rgb(31, 49, 67);
+  margin-top: 15px;
+  margin-left: 30px;
+  width: 15%;
+}
+
+.logo {
+  border: 1px solid pink;
+  display: inline;
+  float: left;
+  margin-right: 30px;
+}
+
+nav li a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+.btn {
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  background-color: rgb(27, 54, 71);
+  color: white;
+  padding: 20px;
+  display: inline;
+  text-decoration: none;
+}
+
+.section1 {
+  margin-top: 10px;
+  border: 5px solid black;
+}
+
+section > img {
+  margin-right: 0px;
+  position: absolute;
+  right: 0;
+  height: 400px;
+}
+
+#form-btn {
+  text-decoration: none;
+  padding: 20px 30px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(36, 53, 71);
+}
+
+footer {
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

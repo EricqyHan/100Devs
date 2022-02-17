@@ -1,0 +1,194 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/*  */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* predefines height and body to 100% of screen height */
+html,
+body {
+  height: 100%;
+  background-color: rgb(242, 247, 251);
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+header {
+  border: 2px solid black;
+  width: 100%;
+  height: 10%;
+}
+
+.logo {
+  border: 2px solid pink;
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+
+.nav {
+  border: 2px solid blue;
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+
+.nav-button {
+  border: 2px solid orange;
+  width: 10%;
+  height: 100%;
+  float: right;
+}
+
+.navbar-button a {
+  border: 2px solid black;
+  padding-top: 20px;
+}
+
+.nav-button a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.logo a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+section ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+ul {
+  display: inline;
+}
+
+.hero {
+  border: 2px solid green;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+.left-hero p {
+  font-size: 24px;
+}
+
+.left-hero span {
+  font-size: 24px;
+}
+
+.hero-left {
+  border: 2px solid yellow;
+  width: 40%;
+  height: 60%;
+  float: left;
+  padding: 20px;
+}
+
+.left-hero {
+  border: 2px solid black;
+  margin-right: 300px;
+}
+
+.hero-right {
+  border: 2px solid red;
+  width: 60%;
+  height: 60%;
+  float: left;
+  background-image: url(../SourceBackgroundImg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.hero-middle {
+  border: 2px solid red;
+  width: 100%;
+  height: 40%;
+  float: left;
+}
+
+.feature {
+  border: 2px solid silver;
+  width: 25%;
+  height: 100%;
+  float: left;
+  padding: 20px;
+}
+
+.feature h3 {
+  color: rgb(19, 45, 66);
+}
+
+.feature p {
+  color: rgb(19, 45, 66);
+}
+
+.feature h3 {
+  color: black;
+  font-size: 26px;
+}
+
+.feature p {
+  color: black;
+  font-size: 22px;
+}
+
+.feature a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.feature i {
+  font-size: 22px;
+}
+
+.hero-bottom {
+  border: 2px solid blue;
+  width: 100%;
+  height: 30%;
+}
+
+.hero-bottom-1 {
+  border: 2px solid green;
+  width: 30%;
+  height: 100%;
+  display: inline;
+  float: left;
+  padding: 20px;
+}
+
+.hero-bottom-1 h2 {
+  font-size: 42px;
+  color: black;
+}
+
+.hero-bottom-1 p {
+  font-size: 18px;
+  color: black;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

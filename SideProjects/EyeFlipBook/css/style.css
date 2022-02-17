@@ -1,0 +1,153 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+}
+
+footer {
+}
+
+h1 {
+  text-align: center;
+}
+
+.eye {
+  margin: auto;
+  border: green solid 5px;
+  display: block;
+  width: 285px;
+  height: 330px;
+  background-repeat: no-repeat;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/* @media screen and (max-width: 600px) {
+  section {
+    background-color: green;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  section {
+    background-color: blue;
+  }
+  .thickOne {
+    display: none;
+  }
+} */
+
+/* Image 1 */
+@media (min-width: 1552px) {
+  .eye {
+    background-image: url(../images/1-Page.png);
+  }
+}
+
+/* Image 2 */
+@media (min-width: 1453px) and (max-width: 1551px) {
+  .eye {
+    background-image: url(../images/4-Page.png);
+  }
+}
+
+/* Image 3 */
+@media (min-width: 1355px) and (max-width: 1452px) {
+  .eye {
+    background-image: url(../images/7-Page.png);
+  }
+}
+
+/* Image 4 */
+@media (min-width: 1256px) and (max-width: 1354px) {
+  .eye {
+    background-image: url(../images/10-Page.png);
+  }
+}
+
+/* Image 4 */
+@media (min-width: 1157px) and (max-width: 1255px) {
+  .eye {
+    background-image: url(../images/13-Page.png);
+  }
+}
+
+/* Image 5 */
+@media (min-width: 1058px) and (max-width: 1156px) {
+  .eye {
+    background-image: url(../images/16-Page.png);
+  }
+}
+
+/* Image 6 */
+@media (min-width: 959px) and (max-width: 1057px) {
+  .eye {
+    background-image: url(../images/19-Page.png);
+  }
+}
+
+/* Image 7 */
+@media (min-width: 860px) and (max-width: 958px) {
+  .eye {
+    background-image: url(../images/22-Page.png);
+  }
+}
+
+/* Image 8 */
+@media (min-width: 761px) and (max-width: 859px) {
+  .eye {
+    background-image: url(../images/26-Page.png);
+  }
+}
+
+/* Image 9 */
+@media (min-width: 662px) and (max-width: 760px) {
+  .eye {
+    background-image: url(../images/29-Page.png);
+  }
+}
+
+/* Image 10 */
+@media (min-width: 562px) and (max-width: 661px) {
+  .eye {
+    background-image: url(../images/32-Page.png);
+  }
+}
+
+/* Image 17 */
+@media screen and (max-width: 561px) {
+  .eye {
+    background-image: url(../images/35-Page.png);
+    border: 5px solid red;
+  }
+  h1 {
+    color: pink;
+  }
+}

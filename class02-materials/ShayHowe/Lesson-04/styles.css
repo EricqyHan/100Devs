@@ -1,0 +1,27 @@
+p#paragraph {
+  display: inline-block;
+}
+
+div.box {
+  border: 6px solid #949599;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+}
+
+div.box2 {
+  border: 6px solid green;
+  height: 100px;
+  margin: 10px 20px 0 15px;
+  padding: 20px;
+  width: 400px;
+}
+
+div.box3 {
+  border: 6px double pink;
+  border-radius: 5px 70px;
+  height: 100px;
+  margin-top: 10px;
+  padding-left: 6px;
+}

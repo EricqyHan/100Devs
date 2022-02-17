@@ -1,0 +1,14 @@
+.simple {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px solid green;
+  box-sizing: border-box;
+}
+
+.fancy {
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border: solid blue 10px;
+  box-sizing: border-box;
+}

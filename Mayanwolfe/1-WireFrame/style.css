@@ -1,0 +1,138 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/*  */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* predefines height and body to 100% of screen height */
+html,
+body {
+  height: 100%;
+}
+
+header {
+  height: 10%;
+  width: 100%;
+  border: 2px solid slateblue;
+}
+
+/* vh is viewport height */
+.hero {
+  height: 45%;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.hero-main {
+  height: 100%;
+  width: 50%;
+  border: 2px solid blue;
+  float: left;
+  background-image: url(../img/cat2.jpeg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  padding-bottom: 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+}
+
+.hero-content {
+  height: 100%;
+  width: 50%;
+  border: 2px solid blue;
+  float: left;
+}
+
+.other {
+  height: 45%;
+  width: 100%;
+  border: 2px solid yellow;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+img {
+  max-width: 100%;
+}
+
+.gallery {
+  height: 50%;
+  width: 50%;
+  float: left;
+  border: 2px solid green;
+}
+
+.left {
+  height: 100%;
+  width: 33.3%;
+  border: 2px solid pink;
+  float: left;
+}
+
+.middle {
+  height: 100%;
+  width: 33.3%;
+  border: 2px solid silver;
+  float: left;
+  background-position: center;
+}
+
+.right {
+  height: 100%;
+  width: 33.3%;
+  border: 2px solid red;
+  float: right;
+}
+
+.gallery-small {
+  height: 31.3%;
+  width: 96%;
+  border: 2px solid orange;
+  margin: 2%;
+}
+
+.gallery-large {
+  height: 62.6%;
+  width: 96%;
+  border: 2px solid purple;
+  overflow: hidden;
+  margin: 2%;
+}
+
+.third-bucket {
+  height: 80vh;
+  width: 100%;
+  border: 2px solid wheat;
+}
+
+.header-l {
+  height: 100%;
+  width: 20%;
+  border: 2px solid lightgreen;
+  float: left;
+}
+
+.header-m {
+  height: 100%;
+  width: 60%;
+  border: 2px solid sandybrown;
+  float: left;
+  padding-left: 10px;
+}
+
+.header-r {
+  height: 100%;
+  width: 20%;
+  border: 2px solid purple;
+  float: left;
+}

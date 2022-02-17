@@ -1,0 +1,31 @@
+.container {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.initial {
+  -webkit-flex: initial;
+  flex: initial;
+  width: 200px;
+  min-width: 100px;
+  border: 1px solid green;
+}
+
+.none {
+  border: 1px solid red;
+  -webkit-flex: none;
+  flex: none;
+  width: 200px;
+}
+
+.flex1 {
+  border: 1px solid pink;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.flex2 {
+  border: 1px solid blue;
+  -webkit-flex: 2;
+  flex: 2;
+}

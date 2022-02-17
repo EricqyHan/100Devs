@@ -1,0 +1,15 @@
+.container {
+  display: -webkit-flex;
+  display: flex;
+}
+
+nav {
+  width: 200px;
+  border: 1px solid green;
+}
+
+.flex-column {
+  -webkit-flex: 1;
+  flex: 1;
+  border: 1px solid red;
+}

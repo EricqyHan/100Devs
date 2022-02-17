@@ -1,0 +1,23 @@
+#food {
+  background: green;
+}
+
+p {
+  background: orange;
+}
+
+.hotdog p {
+  background: brown;
+}
+
+.hotdog p.mustard {
+  background: yellow;
+}
+
+.task {
+  background: hsl(0, 100%, 25%);
+}
+
+.count {
+  background: hsl(60, 100%, 50%);
+}

@@ -1,0 +1,10 @@
+img {
+  float: right;
+  margin: 0 0 1em 1em;
+  width: 200px;
+  height: 200px;
+}
+
+div {
+  border: 1px solid red;
+}

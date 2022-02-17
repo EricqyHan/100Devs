@@ -1,0 +1,77 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/*  This will give you the same result, and make it easier to change the box-sizing in plugins or other components that leverage other behavior.*/
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* predefines height and body to 100% of screen height */
+html,
+body {
+  height: 100%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav {
+  height: 100%;
+  width: 10%;
+  border: 3px solid black;
+  float: left;
+}
+
+.top {
+  height: 70%;
+  width: 90%;
+  border: 3px solid pink;
+  float: left;
+}
+
+.header {
+  height: 100%;
+  width: 60%;
+  border: 3px solid lightgreen;
+  float: left;
+}
+
+.trendingNews {
+  height: 100%;
+  width: 40%;
+  border: 3px solid lightskyblue;
+  float: left;
+}
+
+.navigation img {
+  border: 1px solid black;
+  float: left;
+  width: 50%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

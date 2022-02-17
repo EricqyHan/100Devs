@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  border: 3px solid black;
+  height: 150px;
+  clear: both;
+}
+
+.section1 {
+  border: 3px solid black;
+  height: 300px;
+}
+
+.section2 {
+  border: 3px solid black;
+  float: left;
+  width: 40%;
+}
+
+.section3 {
+  border: 3px solid black;
+  float: right;
+  width: 60%;
+}

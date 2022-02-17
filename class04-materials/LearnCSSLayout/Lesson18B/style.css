@@ -1,0 +1,8 @@
+.vertical-container {
+  border: 1px solid green;
+  height: 300px;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
