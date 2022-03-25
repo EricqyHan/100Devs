@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+}
+
+/* four major way to show color */
+/* Word, hex, RGBa, HSLa */
+/* Use RGBA since you can use alpha too! */
+
+/* Font family */
+/* Link font family before stylesheet because we need it */
+
+p {
+}

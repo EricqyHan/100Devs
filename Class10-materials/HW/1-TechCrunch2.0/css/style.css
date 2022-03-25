@@ -41,8 +41,13 @@ body {
 nav {
   height: 100%;
   width: 10%;
-  border: 3px solid black;
+  border: 3px solid lightpink;
   float: left;
+}
+
+nav li {
+  list-style-type: none;
+  margin-top: 25px;
 }
 
 .top {
@@ -67,9 +72,8 @@ nav {
 }
 
 .navigation img {
-  border: 1px solid black;
   float: left;
-  width: 50%;
+  width: 100%;
 }
 
 /******************************************

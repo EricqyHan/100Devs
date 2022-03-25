@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="description" content="This app lets you know today is class, the weekend, or a boring day">
+   <meta name="keywords" content="class, weekend, boring">
+
+   <title>What is today?</title>
+
+   <!-- external CSS link -->
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   <h1>What is today?</h1>
+
+   <form>
+      <!-- Label for "Day of the week:" -->
+      <label for="day"> Day of the week: </label>
+      <!-- Label for "text input of day of the week" -->
+      <input id="day" type="text" placeholder="Day of the week">
+      <br>
+      <!-- Just a label in for showinn question again -->
+      <label for=""> Is it a boring day, class day, or a weekend?</label>
+      <!-- Span to insert the day by element ID -->
+      <span id="day-type"></span>
+   </form>
+   <!-- Button "event listener" -->
+   <button id="check" type="button" name="button">check</button>
+   <!-- #placeToSee is where our answer for coding will go -->
+   <h2 id="placeToSee"></h2>
+   <!-- #time will show what time it is at -->
+   <h2 id="time"></h2>
+
+
+   <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+h2 {
+  color: red;
+}
+
+/* world and zebra */
+section > h2 {
+  color: blue;
+}
+
+/* Unicorn */
+/* section > article > h2 {
+  color: pink;
+} */
+
+/* Give me an h2 that is a direct child of an he */
+section + article > h2 {
+  color: purple;
+}
