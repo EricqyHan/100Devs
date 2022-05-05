@@ -43,7 +43,7 @@ let checkWin = (playerChoice) => {
   }
 };
 
-checkWin();
+console.log(checkWin());
 
 //*Loops*
 //Create a function that takes an array of choices.
