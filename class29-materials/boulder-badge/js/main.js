@@ -21,10 +21,11 @@ function canCharmanderBattle(currentTemp) {
   let converted = fahrenheitToCelsius(currentTemp);
   if (converted > 0) {
     console.log(`Charmander can battle`);
-  } else [console.log(`Charmander cannot battle!`)];
+  } else console.log(`Charmander cannot battle!`);
 }
 
 canCharmanderBattle(21);
+console.log(canCharmanderBattle(21));
 canCharmanderBattle(32);
 
 //Loops
